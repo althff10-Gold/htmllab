@@ -1,0 +1,70 @@
+<html>
+<head>
+	<title>form page</title>
+</head>
+<body>
+
+	<h1>REGISTRATION FORM:</h1>
+<form>
+	<label><b>Name</label>
+	<input type="text" name="first_name" required><br><br>
+	<label>Password</label>
+	<input type="password" name="pass" required><br><br>
+	<label>Mobile number</label>
+	<input type="tel" name="num" maxlength="10"  required><br><br>
+	<label>Date of birth </label>
+	<input type="date" name="date" required><br><br>
+	<label>Email</label>
+	<input type="email" name="email" required><br><br>
+	<label>Select Gender :</label>
+	<label>Male</label>
+	<input type="radio" id="male" name="gender"/>
+	<label>Female</label>
+	<input type="radio" id="female" name="gender"/>
+	<label>Other</label>
+	<input type="radio" id="female" name="gender"/><br><br>
+
+
+	<label>Address</label>
+	<Textarea id="text" name="address" rows="5" cols="30"/></textarea><br><br>
+
+	<label>nationality  required</label>
+	<select>
+		<option>Select nationality </option>
+		<option>Indian</option>
+		<option>American</option>
+		<option>African</option>
+		<option>japanese</option>
+	</select> <br><br>
+
+
+
+	<h3>Languages known:</h3>
+
+<fieldset>
+  <legend>Select Languages</legend>
+
+  <input type="checkbox" id="lang1" name="language" />
+  <label for="lang1">English</label><br>
+
+  <input type="checkbox" id="lang2" name="language" />
+  <label for="lang2">Hindi</label><br>
+
+  <input type="checkbox" id="lang3" name="language" />
+  <label for="lang3">Arabic</label><br>
+
+  <input type="checkbox" id="lang4" name="language" />
+  <label for="lang4">Spanish</label><br>
+
+  <input type="checkbox" id="lang5" name="language" />
+  <label for="lang5">Malayalam</label><br><br>
+
+</fieldset><br>
+
+
+
+	<input type="submit" name="submit"/>
+	<input type="submit" value="cancel"/>
+</form>
+</body>
+</html>
